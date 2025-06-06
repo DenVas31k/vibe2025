@@ -3,6 +3,5 @@ USE todolist;
 
 CREATE TABLE IF NOT EXISTS items (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    text VARCHAR(255) NOT NULL,
-    display_order INT NOT NULL DEFAULT 0  -- Добавляем новый столбец
+    text VARCHAR(255) NOT NULL
 );
